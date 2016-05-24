@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+/*重置*/
+
+* {
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-style: normal;
+    font-weight: 400;
+    outline: none;
+    box-sizing: border-box;
+    transition: .2s;
+}
+
+a,
+a:hover,
+a:link {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+svg path {
+    fill: currentColor;
+}
+
+
+/*布局*/
+
+body {
+    background: #F2F2F2;
+    color: #666;
+    font: 14px "Helvetica Neue", Helvetica, "microsoft yahei",Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.tl {
+    text-align: left;
+}
+
+.tr {
+    text-align: right;
+}
+
+.tc {
+    text-align: center;
+}
+
+.ml05 {
+    margin-left: 5px;
+}
+
+.mr05 {
+    margin-right: 5px;
+}
+
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+.row > div {
+    float: left;
+}
+
+.col_1 {
+    width: 8.3333%;
+}
+
+.col_2 {
+    width: 16.6666%;
+}
+
+.col_3 {
+    width: 25%;
+}
+
+.col_4 {
+    width: 33.3333%;
+}
+
+.col_5 {
+    width: 41.6666%;
+}
+
+.col_6 {
+    width: 50%;
+}
+
+.col_7 {
+    width: 58.3333%;
+}
+
+.col_8 {
+    width: 66.6666%;
+}
+
+.col_9 {
+    width: 75%;
+}
+
+.col_10 {
+    width: 83.3333%;
+}
+
+.col_11 {
+    width: 91.6666%;
+}
+
+.col_12 {
+    width: 100%;
+}
+
+
+/*大小*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+h5 {
+    font-size: 1.6rem;
+}
+
+h6 {
+    font-size: 1.4rem;
+}
+
+/*色板*/
+
+.c_main a,
+.c_main {
+    color: #FF5041;
+}
+
+.c_main a:hover {
+    color: #B2281C;
+}
+
+.c_2nd a,
+.c_2nd {
+    color: #2071CC;
+}
+
+.c_2nd a:hover {
+    color: #2567B2;
+}
+
+.c_grey a,
+.c_grey {
+    color: #D2D2D2;
+}
+
+.c_grey a:hover {
+    color: #AAA;
+}
+
+.c_tip {
+    color: #E7FF5B;
+}
+
+
+

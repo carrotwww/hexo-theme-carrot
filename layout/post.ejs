@@ -1,0 +1,21 @@
+<section class="post clearfix">
+            <div class="container row">
+                <nav class="fl col_3 c_2nd leftbar">
+                    <div class="clearfix">
+                        <p>Tag:</p>
+                        <% if (site.tags.length){ %>
+                           <%- list_tags({show_count: theme.show_count}) %>
+                        <% } %>
+                    </div>
+                    <div class="clearfix">
+                        <p>Archive:</p>
+                        <% if (site.posts.length){ %>
+                            <%- list_archives({show_count: theme.show_count, type: theme.archive_type}) %>
+                        <% } %>
+                    </div>
+                </nav>
+                <div class="fr col_9 reader_box">
+                  <%- partial('_partial/article', {post: page, index: false}) %>
+                </div>
+            </div>
+</section>

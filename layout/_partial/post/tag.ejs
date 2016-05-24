@@ -1,0 +1,11 @@
+<svg class="fl mr05">
+    <g transform="translate(0, 14) scale(1, -1) scale(0.014, 0.014)">
+        <path d="M73.113 149.999 200.333 300 73.113 454.576 953 454.576 953 150Z" fill="#737383"></path>
+      </g>
+</svg>
+<% if (post.tags && post.tags.length){ %>
+  <%- list_tags(post.tags, {
+    show_count: false,
+    class: 'article-tag fl'
+  }) %>
+<% } %>
